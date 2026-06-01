@@ -1308,7 +1308,7 @@ function focusOnState(stateId, meta) {
 
 // Загрузка GeoJSON
 function loadAndRun() {
-    fetch('cliopatria_polities_only.geojson')
+    fetch('optimized.geojson')
         .then(r => r.json())
         .then(data => {
             allFeatures = data.features;
